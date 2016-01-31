@@ -1,0 +1,62 @@
+body{
+	background-color: orange;
+	font-family: arial;
+}
+
+#top p{
+	display: inline;
+	font-size: 40px;
+	vertical-align: center;
+	color: #ac7339;
+}
+
+#container{
+	background-color: white;
+	padding: 50px;
+	margin-top: 20px;
+}
+
+.item{
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 150px;
+
+}
+
+.description{
+	font-size: 14px;
+	color: #999999;
+	padding-bottom: 10px;
+	padding-left: 150px;
+}
+
+.price{
+	font-size: 16px;
+	color: #999999;
+	float: right;
+	padding-right: 20px;
+
+}
+
+.line{
+	background-color: #999999;
+	width: 95%;
+	height: 3px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
