@@ -14,28 +14,29 @@ body{
 	background-color: white;
 	padding: 50px;
 	margin-top: 20px;
+
 }
 
 .item{
 	font-size: 24px;
 	font-weight: bold;
 	padding-top: 10px;
-	padding-left: 150px;
+	padding-left: 125px;
 
 }
 
 .description{
 	font-size: 14px;
 	color: #999999;
+	display: inline-block;
 	padding-bottom: 10px;
-	padding-left: 150px;
+	padding-left: 125px;
 }
 
 .price{
 	font-size: 16px;
 	color: #999999;
 	float: right;
-	padding-right: 20px;
 
 }
 
@@ -45,6 +46,19 @@ body{
 	height: 3px;
 	text-align: center;
 }
+
+<style>
+.quantity{
+	background-color: #999999;
+	display: inline-block;
+	position: relative;
+	color: #999999;
+	font-size: 24px;
+
+}
+</style>
+
+
 
 
 
