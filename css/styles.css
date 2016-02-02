@@ -12,31 +12,47 @@ body{
 
 #container{
 	background-color: white;
-	padding: 50px;
+	padding: 20px;
 	margin-top: 20px;
-
 }
 
-.item{
+
+.image{
+	width: 65px;
+	height: 40px;
+	float: left;
+}
+
+.name{
+
 	font-size: 24px;
 	font-weight: bold;
 	padding-top: 10px;
-	padding-left: 125px;
-
+	padding-left: 35px;
+	
 }
 
 .description{
 	font-size: 14px;
 	color: #999999;
-	display: inline-block;
 	padding-bottom: 10px;
-	padding-left: 125px;
+	padding-left: 40px;
+}
+
+.dropDown{
+	display: inline-block;
+	position: absolute;
+	right: 200px;
+	margin-top: -40px;
 }
 
 .price{
-	font-size: 16px;
+	font-size: 20px;
 	color: #999999;
-	float: right;
+	display: inline-block;
+	position: absolute;
+	right: 90px;
+	margin-top: -40px;
 
 }
 
@@ -47,16 +63,23 @@ body{
 	text-align: center;
 }
 
-<style>
-.quantity{
-	background-color: #999999;
+.subtotal{
+	margin-left: 10%;
+	padding-left: 6px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.total{
 	display: inline-block;
-	position: relative;
-	color: #999999;
+	position: absolute;
+	right: 90px;
+	margin-top: -50px;
 	font-size: 24px;
 
 }
-</style>
+
+
 
 
 
